@@ -1,0 +1,87 @@
+/* Bill Page Styling */
+.bill-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f0f0, #e2e2e2);
+}
+
+/* Card Styling */
+.bill-card {
+  background: white;
+  border-radius: 15px;
+  max-width: 800px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.bill-card:hover {
+  transform: scale(1.02);
+}
+
+/* Title & Date Styling */
+.bill-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.date-text {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Payment Method Dropdown */
+.custom-select {
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* Generate Bill Button */
+.pulse-button {
+  transition: 0.3s ease-in-out;
+}
+
+.pulse-button:hover {
+  transform: scale(1.05);
+}
+
+/* Table Styling */
+.bill-table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bill-table thead {
+  background: #343a40;
+  color: white;
+}
+
+/* Total Price */
+.total-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff5722;
+}
+
+/* Payment Method */
+.payment-method {
+  font-size: 18px;
+  color: #007bff;
+}
+
+/* Print Button */
+.print-button {
+  background: #28a745;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.print-button:hover {
+  background: #218838;
+  transform: scale(1.1);
+}

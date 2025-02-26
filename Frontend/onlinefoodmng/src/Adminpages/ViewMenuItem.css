@@ -1,0 +1,33 @@
+.container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(233, 109, 27, 0.1);
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #ec6104;
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+  
+  .img-thumbnail {
+    object-fit: cover;
+  }
+  
+  .btn {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .w{
+    width: 1000px;
+  }
+  
