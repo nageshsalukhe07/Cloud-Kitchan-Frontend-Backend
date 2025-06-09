@@ -64,7 +64,7 @@ Handling user authentication and role-based access
 🧪 How to Run Locally
 Clone the repo
 
-Import backend into Eclipse or IntelliJ
+Import backend into Eclipse 
 
 Run MySQL and import the schema
 
